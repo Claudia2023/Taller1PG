@@ -1,0 +1,80 @@
+.title {
+    padding-top: 50px;
+    color: white;
+}
+
+.content {
+    background-image: url("../Imagenes/BG.jpg");
+    width: 100%;
+    clear: both;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    height: 490px;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.5rem !important;
+}
+
+.tabla {
+    margin: auto;
+    padding: 10px;
+}
+
+.tabla th {
+    padding: .2em .8em;
+    border: 1px solid rgba(20, 50, 90, 0.25);
+    background: rgba(0, 102, 255, 0.25);
+    text-align: center;
+}
+
+pre {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    color: #024f87;
+    font-weight: bold;
+}
+
+span {
+    text-align: center;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #024f87;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+footer {
+    background-color: #444444;
+    flex: 0 0 auto;
+}
+
+#copyright {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#copyright p {
+    text-align: center;
+    font-size: 13px !important;
+    color: #fff;
+    font-family: Arial, Helvetica, Sans-serif;
+}
